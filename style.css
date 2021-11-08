@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+a{
+    padding: 80px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    transform: scale(1.1);
+}
+#one{
+    background: purple;
+}
+#two{
+    background: yellow;
+    color: black;
+}
+#three{
+    background: aquamarine;
+    color: purple;
+}
+#four{
+    background: darkblue;
+    color: white;
+}
